@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "UIColor+FlatUI.h"
+#import "Helpshift.h"
+#import <DMPasscode/DMPasscode.h>
 
 @interface AppDelegate ()
 
@@ -14,9 +17,38 @@
 
 @implementation AppDelegate
 
+- (NSMutableDictionary *) userData{
+    if (!_userData) _userData = [[NSMutableDictionary alloc] init];
+    return _userData;
+}
+
+- (NSMutableArray *) nodes{
+    if (!_nodes) _nodes = [[NSMutableArray alloc] init];
+    return _nodes;
+}
+
+- (NSMutableArray *) transactions{
+    if (!_transactions) _transactions = [[NSMutableArray alloc] init];
+    return _transactions;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Helpshift installForApiKey:@"baa973a1354f54ae4c03b64059a8e1f8" domainName:@"synapsepay.helpshift.com" appID:@"synapsepay_platform_20150103053248336-d917cca56e3f608"];
+    
+    if (launchOptions != nil) //Handle PushNotification when app is opened
+    {
+        NSDictionary* userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
+        if (userInfo != nil &&
+            [[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
+        {
+            [[Helpshift sharedInstance] handleRemoteNotification:userInfo
+                                                  withController:self.window.rootViewController];
+        }
+    }
+    
     return YES;
 }
 
@@ -32,10 +64,28 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    if (self.handlePIN) {
+        [self openPinController];
+    }
+}
+
+- (void) openPinController{
+    if (![DMPasscode isPasscodeSet]) {
+        return;
+    }
+    [DMPasscode showPasscodeInViewController:self.window.rootViewController completion:^(BOOL success, NSError *error) {
+        if (!success) {
+            [self openPinController];
+        }
+    }];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    UIViewController *viewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"landingView"];
+//    [self.window.rootViewController presentViewController:viewController animated:NO completion:nil];
+    self.window.tintColor = [UIColor synapseColor];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IS_DEV</key>
+	<true/>
+	<key>PROD_BASE_URL</key>
+	<string>https://synapsepay.com/api/v3/</string>
+	<key>SANDBOX_BASE_URL</key>
+	<string>https://sandbox.synapsepay.com/api/v3/</string>
+	<key>CLIENT_ID</key>
+	<string></string>
+	<key>DEV_CLIENT_ID</key>
+	<string>e3f19e4bd4022c86e7f2</string>
+	<key>CLIENT_SECRET</key>
+	<string></string>
+	<key>DEV_CLIENT_SECRET</key>
+	<string>11c94ba6bad74d24a0158bc707f0fc19a86dc08f</string>
+</dict>
+</plist>

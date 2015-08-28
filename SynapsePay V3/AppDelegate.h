@@ -20,6 +20,12 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+@property (strong,nonatomic) NSMutableArray *transactions;
+@property (strong,nonatomic) NSMutableDictionary *userData;
+@property (strong,nonatomic) NSMutableArray *nodes;
+@property (strong,nonatomic) NSMutableArray *institutions;
+@property (nonatomic) BOOL handlePIN;
+
 
 @end
 

@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E48DEAFC499F546263A271 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C54BAB34CAF509B97001192 /* libPods.a */; };
+		9746DF421B87A04A00AAE52D /* TransactionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9746DF411B87A04A00AAE52D /* TransactionsTableViewController.m */; };
+		9746DF4B1B87A6DA00AAE52D /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9746DF4A1B87A6DA00AAE52D /* UIColor+FlatUI.m */; };
+		9746DF4F1B87A85E00AAE52D /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9746DF4E1B87A85E00AAE52D /* CommonFunctions.m */; };
+		9746DF511B87A89700AAE52D /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9746DF501B87A89700AAE52D /* config.plist */; };
+		9746DF5A1B890E4300AAE52D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9746DF591B890E4300AAE52D /* UIImage+ImageEffects.m */; };
+		9746DF621B8919F700AAE52D /* UINavigationBar+CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9746DF611B8919F700AAE52D /* UINavigationBar+CustomNavBar.m */; };
 		9755B5B11B75474E00AFC066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9755B5B01B75474E00AFC066 /* main.m */; };
 		9755B5B41B75474E00AFC066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9755B5B31B75474E00AFC066 /* AppDelegate.m */; };
 		9755B5B71B75474E00AFC066 /* SynapsePay_V3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9755B5B51B75474E00AFC066 /* SynapsePay_V3.xcdatamodeld */; };
-		9755B5BA1B75474E00AFC066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9755B5B91B75474E00AFC066 /* ViewController.m */; };
 		9755B5BD1B75474E00AFC066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9755B5BB1B75474E00AFC066 /* Main.storyboard */; };
 		9755B5BF1B75474E00AFC066 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9755B5BE1B75474E00AFC066 /* Images.xcassets */; };
 		9755B5C21B75474E00AFC066 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9755B5C01B75474E00AFC066 /* LaunchScreen.xib */; };
 		9755B5CE1B75474E00AFC066 /* SynapsePay_V3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9755B5CD1B75474E00AFC066 /* SynapsePay_V3Tests.m */; };
+		977ADDCB1B8A7E6500DD3410 /* HelpshiftConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 977ADDCA1B8A7E6500DD3410 /* HelpshiftConfig.plist */; };
+		977ADDCE1B8C264500DD3410 /* EnterEmailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDCD1B8C264500DD3410 /* EnterEmailTableViewController.m */; };
+		977ADDD11B8C2CF500DD3410 /* CreateAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDD01B8C2CF500DD3410 /* CreateAccountTableViewController.m */; };
+		977ADDD41B8CC65C00DD3410 /* SSNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDD31B8CC65C00DD3410 /* SSNTableViewController.m */; };
+		977ADDD71B8D2FED00DD3410 /* AddIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDD61B8D2FED00DD3410 /* AddIDViewController.m */; };
+		977ADDDA1B8E632C00DD3410 /* SelectAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDD91B8E632C00DD3410 /* SelectAccountTableViewController.m */; };
+		977ADDDD1B8E68A500DD3410 /* SignInTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDDC1B8E68A500DD3410 /* SignInTableViewController.m */; };
+		977ADDE01B8E6CA400DD3410 /* SelectDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDDF1B8E6CA400DD3410 /* SelectDeviceTableViewController.m */; };
+		977ADDE31B8E723600DD3410 /* EnterPINTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDE21B8E723600DD3410 /* EnterPINTableViewController.m */; };
+		977ADDE61B8E874F00DD3410 /* SearchUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDE51B8E874F00DD3410 /* SearchUserTableViewController.m */; };
+		977ADDE91B8E9F2C00DD3410 /* SelectNodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDE81B8E9F2C00DD3410 /* SelectNodeTableViewController.m */; };
+		977ADDEC1B8FCEF200DD3410 /* CreateTransactionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ADDEB1B8FCEF200DD3410 /* CreateTransactionTableViewController.m */; };
+		977E7CB01B84499B0060E89F /* GlobalStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 977E7CAF1B84499B0060E89F /* GlobalStuff.m */; };
+		977E7CB41B844ACB0060E89F /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977E7CB31B844ACB0060E89F /* LandingViewController.m */; };
+		97D6860D1B895DC300AE151E /* NodesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6860C1B895DC300AE151E /* NodesTableViewController.m */; };
+		97D686101B8998A600AE151E /* SelectBankTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6860F1B8998A600AE151E /* SelectBankTableViewController.m */; };
+		97D686131B8A25F300AE151E /* BankLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D686121B8A25F300AE151E /* BankLoginTableViewController.m */; };
+		97D686161B8A2D0300AE151E /* BankMFATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D686151B8A2D0300AE151E /* BankMFATableViewController.m */; };
+		97D6861A1B8A757200AE151E /* UserSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D686181B8A757200AE151E /* UserSquareView.m */; };
+		97D6861B1B8A757200AE151E /* UserSquareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D686191B8A757200AE151E /* UserSquareView.xib */; };
+		97D6861E1B8A760500AE151E /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6861D1B8A760500AE151E /* SettingsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +55,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		582A13DA8DB29FACA0E2AD84 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7C54BAB34CAF509B97001192 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9746DF401B87A04A00AAE52D /* TransactionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsTableViewController.h; sourceTree = "<group>"; };
+		9746DF411B87A04A00AAE52D /* TransactionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsTableViewController.m; sourceTree = "<group>"; };
+		9746DF491B87A6DA00AAE52D /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		9746DF4A1B87A6DA00AAE52D /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		9746DF4D1B87A85E00AAE52D /* CommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctions.h; sourceTree = "<group>"; };
+		9746DF4E1B87A85E00AAE52D /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunctions.m; sourceTree = "<group>"; };
+		9746DF501B87A89700AAE52D /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		9746DF581B890E4300AAE52D /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9746DF591B890E4300AAE52D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9746DF601B8919F700AAE52D /* UINavigationBar+CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomNavBar.h"; sourceTree = "<group>"; };
+		9746DF611B8919F700AAE52D /* UINavigationBar+CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomNavBar.m"; sourceTree = "<group>"; };
 		9755B5AB1B75474E00AFC066 /* SynapsePay V3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SynapsePay V3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9755B5AF1B75474E00AFC066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9755B5B01B75474E00AFC066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9755B5B21B75474E00AFC066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9755B5B31B75474E00AFC066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9755B5B61B75474E00AFC066 /* SynapsePay_V3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SynapsePay_V3.xcdatamodel; sourceTree = "<group>"; };
-		9755B5B81B75474E00AFC066 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9755B5B91B75474E00AFC066 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9755B5BC1B75474E00AFC066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9755B5BE1B75474E00AFC066 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9755B5C11B75474E00AFC066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9755B5C71B75474E00AFC066 /* SynapsePay V3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SynapsePay V3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9755B5CC1B75474E00AFC066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9755B5CD1B75474E00AFC066 /* SynapsePay_V3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynapsePay_V3Tests.m; sourceTree = "<group>"; };
+		977ADDCA1B8A7E6500DD3410 /* HelpshiftConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfig.plist; sourceTree = "<group>"; };
+		977ADDCC1B8C264500DD3410 /* EnterEmailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterEmailTableViewController.h; sourceTree = "<group>"; };
+		977ADDCD1B8C264500DD3410 /* EnterEmailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterEmailTableViewController.m; sourceTree = "<group>"; };
+		977ADDCF1B8C2CF500DD3410 /* CreateAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountTableViewController.h; sourceTree = "<group>"; };
+		977ADDD01B8C2CF500DD3410 /* CreateAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountTableViewController.m; sourceTree = "<group>"; };
+		977ADDD21B8CC65C00DD3410 /* SSNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNTableViewController.h; sourceTree = "<group>"; };
+		977ADDD31B8CC65C00DD3410 /* SSNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNTableViewController.m; sourceTree = "<group>"; };
+		977ADDD51B8D2FED00DD3410 /* AddIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddIDViewController.h; sourceTree = "<group>"; };
+		977ADDD61B8D2FED00DD3410 /* AddIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddIDViewController.m; sourceTree = "<group>"; };
+		977ADDD81B8E632C00DD3410 /* SelectAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAccountTableViewController.h; sourceTree = "<group>"; };
+		977ADDD91B8E632C00DD3410 /* SelectAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAccountTableViewController.m; sourceTree = "<group>"; };
+		977ADDDB1B8E68A500DD3410 /* SignInTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInTableViewController.h; sourceTree = "<group>"; };
+		977ADDDC1B8E68A500DD3410 /* SignInTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInTableViewController.m; sourceTree = "<group>"; };
+		977ADDDE1B8E6CA400DD3410 /* SelectDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDeviceTableViewController.h; sourceTree = "<group>"; };
+		977ADDDF1B8E6CA400DD3410 /* SelectDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDeviceTableViewController.m; sourceTree = "<group>"; };
+		977ADDE11B8E723600DD3410 /* EnterPINTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterPINTableViewController.h; sourceTree = "<group>"; };
+		977ADDE21B8E723600DD3410 /* EnterPINTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterPINTableViewController.m; sourceTree = "<group>"; };
+		977ADDE41B8E874F00DD3410 /* SearchUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUserTableViewController.h; sourceTree = "<group>"; };
+		977ADDE51B8E874F00DD3410 /* SearchUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUserTableViewController.m; sourceTree = "<group>"; };
+		977ADDE71B8E9F2C00DD3410 /* SelectNodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNodeTableViewController.h; sourceTree = "<group>"; };
+		977ADDE81B8E9F2C00DD3410 /* SelectNodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNodeTableViewController.m; sourceTree = "<group>"; };
+		977ADDEA1B8FCEF200DD3410 /* CreateTransactionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTransactionTableViewController.h; sourceTree = "<group>"; };
+		977ADDEB1B8FCEF200DD3410 /* CreateTransactionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTransactionTableViewController.m; sourceTree = "<group>"; };
+		977E7CAE1B84499B0060E89F /* GlobalStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalStuff.h; sourceTree = "<group>"; };
+		977E7CAF1B84499B0060E89F /* GlobalStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalStuff.m; sourceTree = "<group>"; };
+		977E7CB21B844ACB0060E89F /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		977E7CB31B844ACB0060E89F /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		97D6860B1B895DC300AE151E /* NodesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodesTableViewController.h; sourceTree = "<group>"; };
+		97D6860C1B895DC300AE151E /* NodesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodesTableViewController.m; sourceTree = "<group>"; };
+		97D6860E1B8998A600AE151E /* SelectBankTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectBankTableViewController.h; sourceTree = "<group>"; };
+		97D6860F1B8998A600AE151E /* SelectBankTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectBankTableViewController.m; sourceTree = "<group>"; };
+		97D686111B8A25F300AE151E /* BankLoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankLoginTableViewController.h; sourceTree = "<group>"; };
+		97D686121B8A25F300AE151E /* BankLoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankLoginTableViewController.m; sourceTree = "<group>"; };
+		97D686141B8A2D0300AE151E /* BankMFATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankMFATableViewController.h; sourceTree = "<group>"; };
+		97D686151B8A2D0300AE151E /* BankMFATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankMFATableViewController.m; sourceTree = "<group>"; };
+		97D686171B8A757200AE151E /* UserSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSquareView.h; sourceTree = "<group>"; };
+		97D686181B8A757200AE151E /* UserSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSquareView.m; sourceTree = "<group>"; };
+		97D686191B8A757200AE151E /* UserSquareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserSquareView.xib; sourceTree = "<group>"; };
+		97D6861C1B8A760500AE151E /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		97D6861D1B8A760500AE151E /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		B49E1110730140139A1885F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E48DEAFC499F546263A271 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +142,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16A40DC1228FF135833C3A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C54BAB34CAF509B97001192 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9746DF3F1B87A03300AAE52D /* Main+App */ = {
+			isa = PBXGroup;
+			children = (
+				9746DF401B87A04A00AAE52D /* TransactionsTableViewController.h */,
+				9746DF411B87A04A00AAE52D /* TransactionsTableViewController.m */,
+				97D6860B1B895DC300AE151E /* NodesTableViewController.h */,
+				97D6860C1B895DC300AE151E /* NodesTableViewController.m */,
+				97D6860E1B8998A600AE151E /* SelectBankTableViewController.h */,
+				97D6860F1B8998A600AE151E /* SelectBankTableViewController.m */,
+				97D686111B8A25F300AE151E /* BankLoginTableViewController.h */,
+				97D686121B8A25F300AE151E /* BankLoginTableViewController.m */,
+				97D686141B8A2D0300AE151E /* BankMFATableViewController.h */,
+				97D686151B8A2D0300AE151E /* BankMFATableViewController.m */,
+				97D6861C1B8A760500AE151E /* SettingsTableViewController.h */,
+				97D6861D1B8A760500AE151E /* SettingsTableViewController.m */,
+				977ADDE41B8E874F00DD3410 /* SearchUserTableViewController.h */,
+				977ADDE51B8E874F00DD3410 /* SearchUserTableViewController.m */,
+				977ADDE71B8E9F2C00DD3410 /* SelectNodeTableViewController.h */,
+				977ADDE81B8E9F2C00DD3410 /* SelectNodeTableViewController.m */,
+				977ADDEA1B8FCEF200DD3410 /* CreateTransactionTableViewController.h */,
+				977ADDEB1B8FCEF200DD3410 /* CreateTransactionTableViewController.m */,
+			);
+			name = "Main+App";
+			sourceTree = "<group>";
+		};
+		9746DF4C1B87A84700AAE52D /* Common+Functions */ = {
+			isa = PBXGroup;
+			children = (
+				9746DF491B87A6DA00AAE52D /* UIColor+FlatUI.h */,
+				9746DF4A1B87A6DA00AAE52D /* UIColor+FlatUI.m */,
+				9746DF581B890E4300AAE52D /* UIImage+ImageEffects.h */,
+				9746DF591B890E4300AAE52D /* UIImage+ImageEffects.m */,
+				9746DF4D1B87A85E00AAE52D /* CommonFunctions.h */,
+				9746DF4E1B87A85E00AAE52D /* CommonFunctions.m */,
+			);
+			name = "Common+Functions";
+			sourceTree = "<group>";
+		};
+		9746DF521B89032C00AAE52D /* Custom+Views */ = {
+			isa = PBXGroup;
+			children = (
+				97D686171B8A757200AE151E /* UserSquareView.h */,
+				97D686181B8A757200AE151E /* UserSquareView.m */,
+				97D686191B8A757200AE151E /* UserSquareView.xib */,
+				9746DF601B8919F700AAE52D /* UINavigationBar+CustomNavBar.h */,
+				9746DF611B8919F700AAE52D /* UINavigationBar+CustomNavBar.m */,
+			);
+			name = "Custom+Views";
+			sourceTree = "<group>";
+		};
 		9755B5A21B75474D00AFC066 = {
 			isa = PBXGroup;
 			children = (
 				9755B5AD1B75474E00AFC066 /* SynapsePay V3 */,
 				9755B5CA1B75474E00AFC066 /* SynapsePay V3Tests */,
 				9755B5AC1B75474E00AFC066 /* Products */,
+				9BEA60303AAB3E0F869BD6A3 /* Pods */,
+				16A40DC1228FF135833C3A32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +223,14 @@
 		9755B5AD1B75474E00AFC066 /* SynapsePay V3 */ = {
 			isa = PBXGroup;
 			children = (
+				9746DF521B89032C00AAE52D /* Custom+Views */,
+				9746DF4C1B87A84700AAE52D /* Common+Functions */,
+				977E7CB11B844AB10060E89F /* Landing+Stuff */,
+				9746DF3F1B87A03300AAE52D /* Main+App */,
+				977E7CAE1B84499B0060E89F /* GlobalStuff.h */,
+				977E7CAF1B84499B0060E89F /* GlobalStuff.m */,
 				9755B5B21B75474E00AFC066 /* AppDelegate.h */,
 				9755B5B31B75474E00AFC066 /* AppDelegate.m */,
-				9755B5B81B75474E00AFC066 /* ViewController.h */,
-				9755B5B91B75474E00AFC066 /* ViewController.m */,
 				9755B5BB1B75474E00AFC066 /* Main.storyboard */,
 				9755B5BE1B75474E00AFC066 /* Images.xcassets */,
 				9755B5C01B75474E00AFC066 /* LaunchScreen.xib */,
@@ -99,6 +243,8 @@
 		9755B5AE1B75474E00AFC066 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				977ADDCA1B8A7E6500DD3410 /* HelpshiftConfig.plist */,
+				9746DF501B87A89700AAE52D /* config.plist */,
 				9755B5AF1B75474E00AFC066 /* Info.plist */,
 				9755B5B01B75474E00AFC066 /* main.m */,
 			);
@@ -122,6 +268,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		977E7CB11B844AB10060E89F /* Landing+Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				977E7CB21B844ACB0060E89F /* LandingViewController.h */,
+				977E7CB31B844ACB0060E89F /* LandingViewController.m */,
+				977ADDCC1B8C264500DD3410 /* EnterEmailTableViewController.h */,
+				977ADDCD1B8C264500DD3410 /* EnterEmailTableViewController.m */,
+				977ADDCF1B8C2CF500DD3410 /* CreateAccountTableViewController.h */,
+				977ADDD01B8C2CF500DD3410 /* CreateAccountTableViewController.m */,
+				977ADDD21B8CC65C00DD3410 /* SSNTableViewController.h */,
+				977ADDD31B8CC65C00DD3410 /* SSNTableViewController.m */,
+				977ADDD51B8D2FED00DD3410 /* AddIDViewController.h */,
+				977ADDD61B8D2FED00DD3410 /* AddIDViewController.m */,
+				977ADDD81B8E632C00DD3410 /* SelectAccountTableViewController.h */,
+				977ADDD91B8E632C00DD3410 /* SelectAccountTableViewController.m */,
+				977ADDDB1B8E68A500DD3410 /* SignInTableViewController.h */,
+				977ADDDC1B8E68A500DD3410 /* SignInTableViewController.m */,
+				977ADDDE1B8E6CA400DD3410 /* SelectDeviceTableViewController.h */,
+				977ADDDF1B8E6CA400DD3410 /* SelectDeviceTableViewController.m */,
+				977ADDE11B8E723600DD3410 /* EnterPINTableViewController.h */,
+				977ADDE21B8E723600DD3410 /* EnterPINTableViewController.m */,
+			);
+			name = "Landing+Stuff";
+			sourceTree = "<group>";
+		};
+		9BEA60303AAB3E0F869BD6A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49E1110730140139A1885F6 /* Pods.debug.xcconfig */,
+				582A13DA8DB29FACA0E2AD84 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9755B5D11B75474E00AFC066 /* Build configuration list for PBXNativeTarget "SynapsePay V3" */;
 			buildPhases = (
+				F2CD2971242A355D5B133D7F /* Check Pods Manifest.lock */,
 				9755B5A71B75474D00AFC066 /* Sources */,
 				9755B5A81B75474D00AFC066 /* Frameworks */,
 				9755B5A91B75474D00AFC066 /* Resources */,
+				EB2264A8A4DEA198FB11B0D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +353,7 @@
 				TargetAttributes = {
 					9755B5AA1B75474D00AFC066 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 27ST67CE2P;
 					};
 					9755B5C61B75474E00AFC066 = {
 						CreatedOnToolsVersion = 6.4;
@@ -203,8 +386,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9755B5BD1B75474E00AFC066 /* Main.storyboard in Resources */,
+				97D6861B1B8A757200AE151E /* UserSquareView.xib in Resources */,
 				9755B5C21B75474E00AFC066 /* LaunchScreen.xib in Resources */,
 				9755B5BF1B75474E00AFC066 /* Images.xcassets in Resources */,
+				977ADDCB1B8A7E6500DD3410 /* HelpshiftConfig.plist in Resources */,
+				9746DF511B87A89700AAE52D /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +403,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EB2264A8A4DEA198FB11B0D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CD2971242A355D5B133D7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9755B5A71B75474D00AFC066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D686161B8A2D0300AE151E /* BankMFATableViewController.m in Sources */,
+				977ADDDD1B8E68A500DD3410 /* SignInTableViewController.m in Sources */,
+				9746DF4B1B87A6DA00AAE52D /* UIColor+FlatUI.m in Sources */,
+				977ADDD41B8CC65C00DD3410 /* SSNTableViewController.m in Sources */,
+				977ADDEC1B8FCEF200DD3410 /* CreateTransactionTableViewController.m in Sources */,
+				97D686131B8A25F300AE151E /* BankLoginTableViewController.m in Sources */,
+				977ADDCE1B8C264500DD3410 /* EnterEmailTableViewController.m in Sources */,
+				97D6860D1B895DC300AE151E /* NodesTableViewController.m in Sources */,
+				97D686101B8998A600AE151E /* SelectBankTableViewController.m in Sources */,
+				97D6861A1B8A757200AE151E /* UserSquareView.m in Sources */,
+				9746DF421B87A04A00AAE52D /* TransactionsTableViewController.m in Sources */,
+				977ADDD71B8D2FED00DD3410 /* AddIDViewController.m in Sources */,
 				9755B5B41B75474E00AFC066 /* AppDelegate.m in Sources */,
+				977ADDE31B8E723600DD3410 /* EnterPINTableViewController.m in Sources */,
+				9746DF5A1B890E4300AAE52D /* UIImage+ImageEffects.m in Sources */,
+				977E7CB41B844ACB0060E89F /* LandingViewController.m in Sources */,
+				9746DF4F1B87A85E00AAE52D /* CommonFunctions.m in Sources */,
+				9746DF621B8919F700AAE52D /* UINavigationBar+CustomNavBar.m in Sources */,
+				97D6861E1B8A760500AE151E /* SettingsTableViewController.m in Sources */,
+				977ADDE01B8E6CA400DD3410 /* SelectDeviceTableViewController.m in Sources */,
+				977E7CB01B84499B0060E89F /* GlobalStuff.m in Sources */,
 				9755B5B71B75474E00AFC066 /* SynapsePay_V3.xcdatamodeld in Sources */,
-				9755B5BA1B75474E00AFC066 /* ViewController.m in Sources */,
 				9755B5B11B75474E00AFC066 /* main.m in Sources */,
+				977ADDE61B8E874F00DD3410 /* SearchUserTableViewController.m in Sources */,
+				977ADDE91B8E9F2C00DD3410 /* SelectNodeTableViewController.m in Sources */,
+				977ADDD11B8C2CF500DD3410 /* CreateAccountTableViewController.m in Sources */,
+				977ADDDA1B8E632C00DD3410 /* SelectAccountTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,21 +591,35 @@
 		};
 		9755B5D21B75474E00AFC066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49E1110730140139A1885F6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SynapsePay V3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1ccf6a06-c2c6-4f9c-8166-20aa09ee4bd1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		9755B5D31B75474E00AFC066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582A13DA8DB29FACA0E2AD84 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SynapsePay V3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ca7c2a7f-05fd-4a29-86d8-8713eaf8a512";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -420,6 +676,7 @@
 				9755B5D31B75474E00AFC066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9755B5D41B75474E00AFC066 /* Build configuration list for PBXNativeTarget "SynapsePay V3Tests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +685,7 @@
 				9755B5D61B75474E00AFC066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
