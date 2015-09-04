@@ -114,8 +114,8 @@
 }
 
 -(void) reloadData{
-    if ([[NSString stringWithFormat:@"%@",self.recivingUser[@"photos"]] length] > 4) {
-        [self.recivingImageView sd_setImageWithURL:[NSURL URLWithString:self.recivingUser[@"photos"]] placeholderImage:nil completed:nil];
+    if ([self.recivingUser[@"photos"] count] > 0) {
+        [self.recivingImageView sd_setImageWithURL:[NSURL URLWithString:[self.commonFunctionsInstance getLastObject:self.recivingUser[@"photos"]]] placeholderImage:nil completed:nil];
     }
     
     [self.recivingNameTextField setText:[self.commonFunctionsInstance getLastObject:self.recivingUser[@"legal_names"]]];

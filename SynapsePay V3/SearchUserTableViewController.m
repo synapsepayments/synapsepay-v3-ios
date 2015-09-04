@@ -151,8 +151,8 @@
     [title setText:[self.commonFunctionsInstance getLastObject:user[@"legal_names"]]];
     [body setText:[NSString stringWithFormat:@"Created Via %@",user[@"client"][@"name"]]];
     
-    if ([[NSString stringWithFormat:@"%@",user[@"photos"]] length] > 4) {
-        [image sd_setImageWithURL:[NSURL URLWithString:user[@"photos"]] placeholderImage:nil completed:nil];
+    if ([user[@"photos"] count] > 0) {
+        [image sd_setImageWithURL:[NSURL URLWithString:[self.commonFunctionsInstance getLastObject:user[@"photos"]]] placeholderImage:nil completed:nil];
     }
     
     return cell;

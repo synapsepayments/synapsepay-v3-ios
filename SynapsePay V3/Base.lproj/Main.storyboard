@@ -425,7 +425,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I agreee to SynapsePay's TOS &amp; Privacy Policy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="Svc-OD-xed">
-                                                    <rect key="frame" x="8" y="8" width="295" height="27.5"/>
+                                                    <rect key="frame" x="8" y="8" width="527" height="27.5"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -439,6 +439,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="32I-oP-2np" secondAttribute="trailing" constant="8" id="5tx-rG-ryZ"/>
                                                 <constraint firstItem="Svc-OD-xed" firstAttribute="leading" secondItem="qmy-q5-wDn" secondAttribute="leading" constant="8" id="IFt-ea-hwg"/>
                                                 <constraint firstItem="32I-oP-2np" firstAttribute="top" secondItem="qmy-q5-wDn" secondAttribute="top" constant="7" id="Tax-68-bUv"/>
+                                                <constraint firstItem="32I-oP-2np" firstAttribute="leading" secondItem="Svc-OD-xed" secondAttribute="trailing" constant="8" id="Vrx-Wv-c7i"/>
                                                 <constraint firstItem="Svc-OD-xed" firstAttribute="top" secondItem="qmy-q5-wDn" secondAttribute="top" constant="8" id="gqv-UR-WnG"/>
                                                 <constraint firstAttribute="bottom" secondItem="Svc-OD-xed" secondAttribute="bottom" constant="8" id="soz-Ab-cA5"/>
                                             </constraints>
@@ -1101,20 +1102,7 @@ Cg
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">We appreciate your efforts. They allow us to stay compliant with the laws.
-In this step, please upload a picture of your government issued ID. It can be a passport or </string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="drivers license">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
-                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=".">
+In this step, please upload a picture of your government issued ID. It can be a passport or driver's license.</string>
                                         <attributes>
                                             <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11"/>
@@ -1129,7 +1117,7 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Please make sure all the four edges of the ID are visible in the picture.">
+                                    <fragment content="Please make sure all four edges of the ID are visible in the picture.">
                                         <attributes>
                                             <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="14" name="HelveticaNeue"/>
@@ -1341,7 +1329,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
-                            <tableViewSection headerTitle="Reciver's Details" id="eme-7q-MBG">
+                            <tableViewSection headerTitle="Receiver's Details" id="eme-7q-MBG">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="9dB-z9-kWb">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -1451,7 +1439,7 @@ Cg
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter amount here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="52R-aP-cIh">
                                                     <rect key="frame" x="18" y="10" width="574" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                 </textField>
                                             </subviews>
                                         </tableViewCellContentView>
