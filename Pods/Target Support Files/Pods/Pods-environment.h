@@ -1,0 +1,116 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking 4
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 4
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 4
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 4
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 4
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 4
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 4
+
+// CNPPopupController
+#define COCOAPODS_POD_AVAILABLE_CNPPopupController
+#define COCOAPODS_VERSION_MAJOR_CNPPopupController 0
+#define COCOAPODS_VERSION_MINOR_CNPPopupController 2
+#define COCOAPODS_VERSION_PATCH_CNPPopupController 1
+
+// DMPasscode
+#define COCOAPODS_POD_AVAILABLE_DMPasscode
+#define COCOAPODS_VERSION_MAJOR_DMPasscode 2
+#define COCOAPODS_VERSION_MINOR_DMPasscode 0
+#define COCOAPODS_VERSION_PATCH_DMPasscode 1
+
+// Groot
+#define COCOAPODS_POD_AVAILABLE_Groot
+#define COCOAPODS_VERSION_MAJOR_Groot 1
+#define COCOAPODS_VERSION_MINOR_Groot 0
+#define COCOAPODS_VERSION_PATCH_Groot 1
+
+// Helpshift
+#define COCOAPODS_POD_AVAILABLE_Helpshift
+#define COCOAPODS_VERSION_MAJOR_Helpshift 4
+#define COCOAPODS_VERSION_MINOR_Helpshift 13
+#define COCOAPODS_VERSION_PATCH_Helpshift 0
+
+// JNKeychain
+#define COCOAPODS_POD_AVAILABLE_JNKeychain
+#define COCOAPODS_VERSION_MAJOR_JNKeychain 0
+#define COCOAPODS_VERSION_MINOR_JNKeychain 1
+#define COCOAPODS_VERSION_PATCH_JNKeychain 2
+
+// JTProgressHUD
+#define COCOAPODS_POD_AVAILABLE_JTProgressHUD
+#define COCOAPODS_VERSION_MAJOR_JTProgressHUD 1
+#define COCOAPODS_VERSION_MINOR_JTProgressHUD 0
+#define COCOAPODS_VERSION_PATCH_JTProgressHUD 2
+
+// LGSemiModalNavController
+#define COCOAPODS_POD_AVAILABLE_LGSemiModalNavController
+#define COCOAPODS_VERSION_MAJOR_LGSemiModalNavController 0
+#define COCOAPODS_VERSION_MINOR_LGSemiModalNavController 2
+#define COCOAPODS_VERSION_PATCH_LGSemiModalNavController 0
+
+// SCLAlertView-Objective-C
+#define COCOAPODS_POD_AVAILABLE_SCLAlertView_Objective_C
+#define COCOAPODS_VERSION_MAJOR_SCLAlertView_Objective_C 0
+#define COCOAPODS_VERSION_MINOR_SCLAlertView_Objective_C 7
+#define COCOAPODS_VERSION_PATCH_SCLAlertView_Objective_C 4
+
+// SDWebImage
+#define COCOAPODS_POD_AVAILABLE_SDWebImage
+#define COCOAPODS_VERSION_MAJOR_SDWebImage 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage 7
+#define COCOAPODS_VERSION_PATCH_SDWebImage 3
+
+// SDWebImage/Core
+#define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
+#define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
+#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 3
+
+// UIScrollView-InfiniteScroll
+#define COCOAPODS_POD_AVAILABLE_UIScrollView_InfiniteScroll
+#define COCOAPODS_VERSION_MAJOR_UIScrollView_InfiniteScroll 0
+#define COCOAPODS_VERSION_MINOR_UIScrollView_InfiniteScroll 7
+#define COCOAPODS_VERSION_PATCH_UIScrollView_InfiniteScroll 3
+

@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CNPPopupController (0.2.1)
+  - DMPasscode (2.0.1)
+  - Groot (1.0.1):
+    - Groot/Swift (= 1.0.1)
+  - Helpshift (4.13.0)
+  - JNKeychain (0.1.2)
+  - JTProgressHUD (1.0.2)
+  - LGSemiModalNavController (0.2.0)
+  - SCLAlertView-Objective-C (0.7.4)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - UIScrollView-InfiniteScroll (0.7.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CNPPopupController
+  - DMPasscode
+  - Groot
+  - Helpshift
+  - JNKeychain
+  - JTProgressHUD
+  - LGSemiModalNavController
+  - SCLAlertView-Objective-C
+  - SDWebImage
+  - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CNPPopupController: 4dcb4e5a70beb0ffcfe425cf462c3e808d3f2aa3
+  DMPasscode: 2c787063d41869bb3f78c88f38ea63739dc0a80e
+  Groot: 8bcac9a812ccac7545bb6f515639acfbb5e7c1ca
+  Helpshift: 7611a36eca09d83349038037130fd4aa1b16fb2b
+  JNKeychain: 3428e123958aca6672b55d615a8a45cdf7b82c71
+  JTProgressHUD: 8d85c057c7784f25494ffc266ad4ddefe178bee1
+  LGSemiModalNavController: ba49f8cbc24638be981cbca8a526f66b5dd90414
+  SCLAlertView-Objective-C: 15ebfdac06ca289ba1f29fe34b5a03da6bd3fe37
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  UIScrollView-InfiniteScroll: b6c7d6d155dca7f9c5dd43813ecffeb301b3d50c
+
+COCOAPODS: 0.36.3

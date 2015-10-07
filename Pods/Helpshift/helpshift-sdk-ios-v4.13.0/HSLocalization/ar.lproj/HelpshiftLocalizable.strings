@@ -1,0 +1,101 @@
+/*
+ HelpshiftLocalizable.strings
+ Helpshift
+ 
+ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
+ */
+
+
+"Rate our App" = "قَيِّم تطبيقنا";
+"If you love our app, please take a moment to rate it in the App Store" = "إذا أُعجِبت بتطبيقنا، من فضلك خذ من وقتك لحظةً لتقيِّيمه في متجر التطبيقات";
+"Rate" = "تقيِّيم";
+"Send Feedback" = "أرسل تعليقك";
+"No Internet!" = "لا يوجد اتصال بالإنترنت!";
+"No working Internet connection is found." = "لم يتم العثور على اتصالٍ نشطٍ بالإنترنت";
+"Take a screenshot on your iPhone" = "خذ لقطةً من الشاشة على هاتفك الآي فون";
+"Take a screenshot on your iPad" = "خذ لقطةً من الشاشة على جهازك الآي باد";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPhone, at the same time." = "اِنتقل إلى الشاشة التي تريد أخذ لقطة منها، اِضغط باستمرار وفي نفس الوقت على زري التشغيل والصفحة الرئيسية في هاتفك الآي فون.";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "اِنتقل إلى الشاشة التي تريد أخذ لقطة منها، اِضغط باستمرار وفي نفس الوقت على زري التشغيل والصفحة الرئيسية في جهازك الآي باد.";
+"That's it, your screenshot is now in your iPhone gallery!" = "هذا كل شيء، لقطة الشاشة هي الآن في معرض صور هاتفك الآي فون!";
+"That's it, your screenshot is now in your iPad gallery!" = "هذا كل شيء، لقطة الشاشة هي الآن في معرض صور جهازك الآي باد!";
+"Take screenshot" = "خذ لقطةً من الشاشة";
+"Opening Gallery..." = "جار فتح معرض الصور…”";
+"Screenshot sent" = "لقد تم إرسال لقطة من الشاشة";
+"Your message was not sent.Tap \"Try Again\" to send this message?" = "لم يتم إرسال رسالتك. اِنقر على \"حَاوِل مرةً أُخرى\" لإرسال هذه الرسالة؟";
+"No faqs found in this section" = "لم يتم العثور على أسئلةٍ شائعةٍ في هذا القسم";
+"Could not fetch faqs" = "لقد تعذر إحضار أسئلةٍ شائعةٍ";
+"We could not fetch the required data" = "لم نتمكن من إحضار البيانات المَطلُوبة";
+"FAQ" = "الأسئلة الشائعة";
+"Can't find what you were looking for?" = "هل تعذر عليك العثور على ما كنت تبحث عنه؟";
+"Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "نحن آسفون لِسماع ذلك. هل يُمكِنك أن تُخبِرنا أكثر بالمُشكلة التي تواجهها؟";
+"We're happy to help you!" = "نحن سُعداء لِمُساعَدتِك!";
+"Describe your problem" = "صِف مُشكِلَتِك";
+"Email invalid" = "البريد الإلكتروني غير صحيح";
+"Please provide a valid email address." = "يُرجَى تقديم عنوان بريدٍ إلكترونيٍ صحيح.";
+"Invalid Entry" = "إدخال غير صحيح";
+"Please enter a brief description of the issue you are facing." = "يُرجَى إدخال وصفٍ مُوجزٍ للمُشكِلة التي تُواجِهُها.";
+"Question" = "سؤال";
+"Was this helpful?" = "هل كان هذا مُفيداً؟";
+"You found this helpful." = "هل وجدت هذا مُفيداً.";
+"You didn't find this helpful." = "أنت لم تجد هذا مُفيداً.";
+"Try Again" = "حَاوِل مرةً أخرى";
+"Cancel" = "إلغاء";
+"REVIEW" = "استعراض";
+"Send" = "إرسال";
+"Ok, attach" = "حسناً، أًرفِق";
+"Learn how" = "تَعلَّم كيف يتم هذا";
+"YES" = "أجل";
+"NO" = "لا";
+"Accepted review request" = "لقد تم قبول طلب المُراجَعة";
+"SEND" = "إرسال";
+"OK" = "حسناً";
+"Close" = "غلق";
+"Loading..." = "تحميل...";
+"Help" = "المُساعَدة";
+"Sending failed!" = "لقد فشل الإرسال!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "لقد تعذر إرسال لقطة من الشاشة. لأن الصورة كبيرةٌ جداً، حَاوِل مرةً أُخرى مع صورةٍ أخرى";
+"Name invalid" = "اسم غير صحيح";
+"Please provide a name." = "يُرجَى توفير اسم.";
+"New message from Support" = "رسالة جديدة من الدعم الفني";
+"new messages from Support" = "رسائل جديدة من الدعم الفني";
+"No FAQs found" = "لم يتم العثور على أسئلة شائعة";
+"Conversation" = "المُحادَثة";
+"Name" = "الاسم";
+"Email (optional)" = "البريد الإلكتروني (اختياري)";
+"Email" = "البريد الإلكتروني";
+"Sending your message..." = "جار إرسال رسالتك...";
+"Message send failure." = "لقد حدث فشل أثناء إرسال الرسالة.";
+"Please check your network connection and try again." = "يُرجَى التحقق من اتصالك بالشبكة وحَاوِل مرةً أخرى.";
+"CONTACT US" = "اِتصل بنا";
+"Back" = "العودة";
+"YES, THANKS!" = "نعم، شكراً لك!";
+"START A NEW CONVERSATION" = "بدء مُحادَثة جديدة";
+"New Conversation" = "المُحادَثة الجديدة";
+"What's on your mind?" = "ما الذي يدور في ذِهنك؟";
+"Thanks for contacting us." = "شكراً لاتصالك بنا.";
+"Your message has been received." = "لقد تم استلام رسالتك.";
+"What else can we help you with?" = "بماذا يُمكِننا مُساعَدتِك أيضاً؟";
+"Would you like to review the app?" = "هل ترغب في مُراجعة التطبيق؟";
+"This conversation has ended." = "لقد انتهت المُحادَثة.";
+"What's your feedback about our customer support?" = "ما هو رأيك في دعمنا الفني للزبائن؟";
+"Service Rating" = "تقييم الخدمة";
+"Hated it" = "لم يُعجِبني";
+"Loved it" = "أَعجَبني";
+"Any other feedback? (optional)" = "هل لديك أية تعليقاتٍ أُخرى؟ (اختياري)";
+"Thanks for messaging us!" = "شكرا لمُراسلتِنا!";
+"Did we answer all your questions?" = "هل أجبنا عن جميع أسئلتِك؟";
+"Preview" = "مُعاينة";
+"Your Rating" = "تَقيِّيمك";
+"Thanks for rating us." = "شكرا لتقيِّيمك لنا.";
+"Your feedback has been received." = "لقد تم استلام تعليقاتك.";
+"or" = "أو";
+"Questions that may already have your answer" = "الأسئلة التي يُمكن أن تحتوي بالفعل على أجوبةٍ لك";
+"SEND ANYWAY" = "أَرسِل على أية حال";
+"Done" = "تم";
+"Suggestions" = "الاقتراحات";
+"Please describe further so that we can help better" = "يُرجى تقديم مزيدٍ من الوصف، لنتمكن من تقديم مساعدةٍ أفضل";
+"Choose below to get started" = "اختر أدناه، للبدء"; 
+
+//IssueDescriptionMinimumCharacterLength:
+//This value is the minimum number of visible characters that should be entered by the user for the description of the issue.
+"IssueDescriptionMinimumCharacterLength" = 1;

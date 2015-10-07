@@ -1,0 +1,2 @@
+PODS_HELPSHIFT_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Helpshift/helpshift-sdk-ios-v4.13.0"
+PODS_HELPSHIFT_OTHER_LDFLAGS = -l"Helpshift" -l"sqlite3.0" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "QuickLook" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
