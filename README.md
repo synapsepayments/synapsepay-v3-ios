@@ -1,2 +1,2 @@
-# synapsepay-v3-ios
+# SynapsePay iOS
 Sample V3 iOS Application
