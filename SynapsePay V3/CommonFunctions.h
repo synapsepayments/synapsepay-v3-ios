@@ -10,7 +10,7 @@
 #import "AFHTTPRequestOperationManager.h"
 
 @interface CommonFunctions : NSObject
-
+- (NSDictionary *) getConfigDict;
 - (NSString *) baseURL;
 - (NSString *) formURL:(NSString *)uri;
 - (NSString *) makeErrorMessage:(NSError *)error withOperation:(AFHTTPRequestOperation *)operation;

@@ -10,12 +10,19 @@
 #import "UIColor+FlatUI.h"
 #import "Helpshift.h"
 #import <DMPasscode/DMPasscode.h>
+#import "CommonFunctions.h"
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) CommonFunctions* commonFunctionsInstance;
 @end
 
+
 @implementation AppDelegate
+
+-(CommonFunctions *) commonFunctionsInstance{
+    if (!_commonFunctionsInstance) _commonFunctionsInstance = [[CommonFunctions alloc] init];
+    return _commonFunctionsInstance;
+}
 
 - (NSMutableDictionary *) userData{
     if (!_userData) _userData = [[NSMutableDictionary alloc] init];
@@ -36,7 +43,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [Helpshift installForApiKey:@"baa973a1354f54ae4c03b64059a8e1f8" domainName:@"synapsepay.helpshift.com" appID:@"synapsepay_platform_20150103053248336-d917cca56e3f608"];
+    [Helpshift installForApiKey:[self.commonFunctionsInstance getConfigDict][@"HELPSHIFT_API_KEY"] domainName:[self.commonFunctionsInstance getConfigDict][@"HELPSHIFT_DOMAIN_NAME"] appID:[self.commonFunctionsInstance getConfigDict][@"HELPSHIFT_APP_ID"]];
     
     if (launchOptions != nil) //Handle PushNotification when app is opened
     {

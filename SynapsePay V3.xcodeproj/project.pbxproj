@@ -348,7 +348,7 @@
 		9755B5A31B75474D00AFC066 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Synapse Payments";
 				TargetAttributes = {
 					9755B5AA1B75474D00AFC066 = {
@@ -530,6 +530,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -600,6 +601,7 @@
 				INFOPLIST_FILE = "SynapsePay V3/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synapsepay.v3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1ccf6a06-c2c6-4f9c-8166-20aa09ee4bd1";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,6 +619,7 @@
 				INFOPLIST_FILE = "SynapsePay V3/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synapsepay.v3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ca7c2a7f-05fd-4a29-86d8-8713eaf8a512";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -637,6 +640,7 @@
 				);
 				INFOPLIST_FILE = "SynapsePay V3Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.synapsepay.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynapsePay V3.app/SynapsePay V3";
 			};
@@ -652,6 +656,7 @@
 				);
 				INFOPLIST_FILE = "SynapsePay V3Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.synapsepay.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynapsePay V3.app/SynapsePay V3";
 			};

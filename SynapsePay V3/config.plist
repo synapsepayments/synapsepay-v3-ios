@@ -11,10 +11,16 @@
 	<key>CLIENT_ID</key>
 	<string></string>
 	<key>DEV_CLIENT_ID</key>
-	<string>e3f19e4bd4022c86e7f2</string>
+	<string></string>
 	<key>CLIENT_SECRET</key>
 	<string></string>
 	<key>DEV_CLIENT_SECRET</key>
-	<string>11c94ba6bad74d24a0158bc707f0fc19a86dc08f</string>
+	<string></string>
+	<key>HELPSHIFT_API_KEY</key>
+	<string></string>
+	<key>HELPSHIFT_DOMAIN_NAME</key>
+	<string></string>
+	<key>HELPSHIFT_APP_ID</key>
+	<string></string>
 </dict>
 </plist>
