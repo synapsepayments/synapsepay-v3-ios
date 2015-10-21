@@ -103,24 +103,25 @@
     
     [self.manager POST:[self.commonFunctionsInstance formURL:@"user/signin"] parameters:payload success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
-        [JTProgressHUD hide];
-        
-        [self.commonFunctionsInstance setRefreshToken:responseObject[@"oauth"][@"refresh_token"]];
-        [self.commonFunctionsInstance setOauthKey:responseObject[@"oauth"][@"oauth_key"]];
-        [self.commonFunctionsInstance setOID:responseObject[@"user"][@"_id"][@"$oid"]];
-        
-        [self dismissViewControllerAnimated:YES completion:^{
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadFlow" object:nil];
-        }];
-        
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        if (operation.responseObject[@"phone_numbers"]) {
+        if (responseObject[@"phone_numbers"]) {
             [JTProgressHUD hide];
             self.phoneNumbers = [operation.responseObject[@"phone_numbers"] mutableCopy];
             [self performSegueWithIdentifier:@"showSelectDevice" sender:self];
         }else{
-            [self.commonFunctionsInstance handleError:error withOperation:operation];
+            [JTProgressHUD hide];
+            
+            [self.commonFunctionsInstance setRefreshToken:responseObject[@"oauth"][@"refresh_token"]];
+            [self.commonFunctionsInstance setOauthKey:responseObject[@"oauth"][@"oauth_key"]];
+            [self.commonFunctionsInstance setOID:responseObject[@"user"][@"_id"][@"$oid"]];
+            
+            [self dismissViewControllerAnimated:YES completion:^{
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadFlow" object:nil];
+            }];
         }
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [self.commonFunctionsInstance handleError:error withOperation:operation];
+        [self.commonFunctionsInstance handleError:error withOperation:operation];
     }];
 }
 
